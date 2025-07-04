@@ -8,3 +8,5 @@ __pycache__/
 venv/
 sample_data/*.mp3
 ner_output/
+*.pkl
+*.spacy
