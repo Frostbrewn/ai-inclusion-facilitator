@@ -1,0 +1,10 @@
+[
+  {
+    "text": "Charlie introduced Galaxy S22 developed by Samsung.",
+    "entities": [
+      {"start": 0, "end": 7, "label": "PERSON"},
+      {"start": 19, "end": 29, "label": "PRODUCT"},
+      {"start": 43, "end": 50, "label": "ORG"}
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "text": "Alice from Microsoft presented the Zenfone 10 during the meeting.",
+    "entities": [
+      {"start": 0, "end": 5, "label": "PERSON"},
+      {"start": 11, "end": 20, "label": "ORG"},
+      {"start": 35, "end": 45, "label": "PRODUCT"}
+    ]
+  },
+  {
+    "text": "Bob mentioned the Pixel 7 Pro and shared updates from Asus.",
+    "entities": [
+      {"start": 0, "end": 3, "label": "PERSON"},
+      {"start": 18, "end": 29, "label": "PRODUCT"},
+      {"start": 54, "end": 59, "label": "ORG"}
+    ]
+  },
+  {
+    "text": "Diana reported feedback on iPhone 15 from Apple.",
+    "entities": [
+      {"start": 0, "end": 5, "label": "PERSON"},
+      {"start": 27, "end": 36, "label": "PRODUCT"},
+      {"start": 42, "end": 47, "label": "ORG"}
+    ]
+  },
+  {
+    "text": "Eve showcased the Pixel Fold prototype made by Google.",
+    "entities": [
+      {"start": 0, "end": 3, "label": "PERSON"},
+      {"start": 18, "end": 28, "label": "PRODUCT"},
+      {"start": 47, "end": 54, "label": "ORG"}
+    ]
+  }
+]

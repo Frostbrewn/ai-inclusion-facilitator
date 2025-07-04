@@ -1,0 +1,11 @@
+openai-whisper
+transformers
+torch
+scikit-learn
+pandas
+numpy
+streamlit
+flask
+vaderSentiment
+spacy
+pydub
