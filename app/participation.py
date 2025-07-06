@@ -12,6 +12,6 @@ def generate_nudges(speaker_segments):
         percent = (time / total) * 100
         print(f"{person}: {percent:.1f}% of speaking time")
         if percent < SPEAKING_TIME_THRESHOLD:
-            print(f"\n[Nudge] Consider inviting {person} to speak more.\n")
+            print(f"\n\033[93m[nudge]\033[0m Consider inviting {person} to speak more.\n")
         else:
             print(f"\n✅ The speaker participated above the threshold!\n")
