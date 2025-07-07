@@ -33,8 +33,11 @@ def main():
         print("  ▸ No named entities found.")
         print("-" * 45)
 
-
-    classifier = ToneClassifier()
+    try:
+        classifier = ToneClassifier()
+    except Exception as e:
+        print(e)
+        return
 
     print("\n[+] Tone Classification per segment:")
     for i, segment in enumerate(segments):

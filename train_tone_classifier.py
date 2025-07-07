@@ -21,7 +21,7 @@ model = make_pipeline(TfidfVectorizer(), LogisticRegression())
 model.fit(texts, labels)
 
 # Save the model to tone_model.pkl
-with open("model/tone_model.pkl", "wb") as f:
+with open("outputs/tone_model.pkl", "wb") as f:
     pickle.dump(model, f)
 
-print("Model trained and saved to model/tone_model.pkl")
+print("Model trained and saved to outputs/tone_model.pkl")
